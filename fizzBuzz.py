@@ -40,8 +40,8 @@ class Solution1(object):
         elif n % 5 == 0:
             print("Buzz")
         else:
-            print("no fizz")
+            print(str(n))
 
 
 ob2 = Solution1()
-print(ob2.fizzBuzz(7))
+ob2.fizzBuzz(7)
