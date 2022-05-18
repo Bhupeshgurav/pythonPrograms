@@ -1,4 +1,3 @@
-
 def check(numList):
     if sorted(set(numList)) == numList:
         return "increasing"
